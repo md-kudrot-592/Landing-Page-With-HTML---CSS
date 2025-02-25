@@ -1,6 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
 }
 
 body{
@@ -11,6 +16,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 7vh;
+    /* width: 100vw; */
+    
 }
 .nav span{
     display: flex;
@@ -21,18 +29,23 @@ nav{
     width: 5vw;
     margin-top: 1vw;
     margin-right: 1vw;
+    margin-left: 5vw;
 }
 
 .nav input{
-    border: 0.1vw solid #cf87a396; 
+    border: 0.1vw solid #cf87a396;
     border-radius: 25VW;
     height: 4vh;
-    width: 70vh;
-    margin-right: 20vh;
+    width: 51vh;
+    /* margin-right: 20vh; */
+    /* margin-right: 80vh; */
     margin-top: 2vh;
     background: #ffffff;
     color: rgb(0, 0, 0);
     padding: 1vw;
+    margin-right: 27vw;
+    margin-top: 1px;
+    
 }
 
 
@@ -43,7 +56,123 @@ nav{
     gap: 4vw;
     margin-right: 3vw;
     height: 2vw;
-    width: 28vw;
-    margin-left: -15vw;   
+    width: 35vw;
+    margin-left: -15vw;  
+    font-size: 1.2vw; 
 }
 
+.sin{
+    font-size: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    
+}
+.sin button{
+    font-size: 1.5vw;
+    margin-right: 1vw;
+    border-radius: 2vw;
+    padding: 0.3vw;
+    background: #000;
+    color: rgb(255, 255, 255);
+}
+/* ****************nav closed****************** */
+
+.main{
+    position: relative;
+    height: 100%;
+    width:  100%;
+    background:#AB8F97;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.part1{
+    height: 100%;
+    width:  26%;
+
+    /* background: rgb(143, 74, 74); */
+}
+.part2{
+    height: 100%;
+    width:  67%;
+    background: green ;
+    background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.overlap{
+    height: 100vh;
+    width:  100vw;
+    background: #5a32307c;
+}
+
+.part3{
+    height: 100vh;
+    width:  7vw;
+    /* background: blue; */
+}
+
+.text-div{
+    position: absolute;
+    font-size: 2vw;
+    margin: 15vw;
+    margin-left: 15%;
+    /* background: red; */
+   
+}
+
+.text-div h1{
+    font-size: 6vw;
+    font-weight: 22vw;
+    text-transform: uppercase;
+    line-height: 6vw;
+    color: white;
+    letter-spacing: 1vw;
+
+}
+
+.samall-img-div{
+    position: absolute;
+    height: 40vh ;
+    width: 10vw;
+    background: #000;
+    background-image: url(https://images.unsplash.com/photo-1616091093714-c64882e9ab55?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    margin-top: 20%;
+    margin-left: 85%;
+    opacity: 50%;
+
+}
+
+.rotate-text{
+    position: absolute;
+    /* width: 100%; */
+    /* background: red; */
+    transform: rotate(90deg);
+     margin-top: 25%;
+    margin-left: 70%; 
+    width: 50vw;
+    
+
+}
+
+.rotate-text{
+    font-size: 2vw;
+
+    /* likha ke mota korte */
+    -webkit-text-stroke: 0.3vw;
+    -webkit-text-stroke-color: white;
+    color: transparent; 
+    letter-spacing:1vw ;
+
+    
+
+
+}
